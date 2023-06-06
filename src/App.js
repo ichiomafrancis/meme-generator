@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import troll from './img/troll_face.svg';
+import meme from './img/new_meme.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='header'>
+        <div className='title'>
+          <img src={troll} alt='' />
+          <h3>Meme Generator</h3>
+        </div>
+        <h3>React Course - Project 3</h3>
+      </div>
+
+      <div className='input-fields'>
+        <input type='text' placeholder='top word' />
+        <input type='text' placeholder='top word' />
+      </div>
+
+      <div className='new-meme'>
+        <span>
+          {/* <span>Get a new image</span> */}
+          <img src={meme} alt='' className='' />
+        </span>
+      </div>
+
+      <div></div>
     </div>
   );
 }
