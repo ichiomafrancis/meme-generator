@@ -3,28 +3,39 @@ import meme from './img/new_meme.svg';
 
 function App() {
   return (
-    <div className='App'>
-      <div className='header'>
-        <div className='title'>
-          <img src={troll} alt='' />
-          <h3>Meme Generator</h3>
+    <div className='body h-screen flex justify-center items-center'>
+      <div className='app w-[550px] border border-[#E5E5E5] rounded overflow-hidden'>
+        <div className=' header flex justify-between items-center h-16 bg-gradient-to-r from-dark-purple to-light-purple py-5 pl-5 pr-9 text-white shadow'>
+          <div className='title flex'>
+            <img src={troll} alt='' />
+            <h3 className='text-xl font-bold ml-2'>Meme Generator</h3>
+          </div>
+          <h3 className='text-xs font-medium font-inter'>
+            React Course - Project 3
+          </h3>
         </div>
-        <h3>React Course - Project 3</h3>
-      </div>
 
-      <div className='input-fields'>
-        <input type='text' placeholder='top word' />
-        <input type='text' placeholder='top word' />
-      </div>
+        <div className='section m-9'>
+          <div className='input-fields flex justify-between'>
+            <input
+              type='text'
+              placeholder='top text'
+              className='w-56 p-2 border border-[#E5E5E5] outline-0 rounded-md'
+            />
+            <input
+              type='text'
+              placeholder='bottom text'
+              className='w-56 px-2 border border-[#E5E5E5] outline-0 rounded-md'
+            />
+          </div>
 
-      <div className='new-meme'>
-        <span>
-          {/* <span>Get a new image</span> */}
-          <img src={meme} alt='' className='' />
-        </span>
-      </div>
+          <button className='new-meme w-full mt-4 bg-gradient-to-r from-dark-purple to-light-purple py-2.5 flex justify-center rounded-md'>
+            <img src={meme} alt='' className='' />
+          </button>
 
-      <div></div>
+          <div className='mt-9 mb-14 w-full h-[300px] border border-[#E5E5E5]'></div>
+        </div>
+      </div>
     </div>
   );
 }
