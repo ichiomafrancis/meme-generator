@@ -433,6 +433,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 *, ::before, ::after{
@@ -589,24 +591,20 @@ body {
   margin: 2.25rem;
 }
 
+.mb-14{
+  margin-bottom: 3.5rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
-}
-
-.mt-9{
-  margin-top: 2.25rem;
-}
-
-.ml-\[18px\]{
-  margin-left: 18px;
 }
 
 .mt-4{
   margin-top: 1rem;
 }
 
-.mb-14{
-  margin-bottom: 3.5rem;
+.mt-9{
+  margin-top: 2.25rem;
 }
 
 .flex{
@@ -617,44 +615,24 @@ body {
   height: 4rem;
 }
 
-.h-\[600px\]{
-  height: 600px;
+.h-\[300px\]{
+  height: 300px;
 }
 
 .h-screen{
   height: 100vh;
 }
 
-.h-full{
-  height: 100%;
-}
-
-.h-\[100px\]{
-  height: 100px;
-}
-
-.h-\[300px\]{
-  height: 300px;
+.w-56{
+  width: 14rem;
 }
 
 .w-\[550px\]{
   width: 550px;
 }
 
-.w-1\/2{
-  width: 50%;
-}
-
 .w-full{
   width: 100%;
-}
-
-.w-56{
-  width: 14rem;
-}
-
-.flex-col{
-  flex-direction: column;
 }
 
 .items-center{
@@ -685,29 +663,9 @@ body {
   border-width: 1px;
 }
 
-.border-black{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .border-\[\#E5E5E5\]{
   --tw-border-opacity: 1;
   border-color: rgb(229 229 229 / var(--tw-border-opacity));
-}
-
-.bg-\[\#E5E5E5\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
-}
-
-.bg-gray-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -724,31 +682,13 @@ body {
   --tw-gradient-to: #A626D3 var(--tw-gradient-to-position);
 }
 
-.p-5{
-  padding: 1.25rem;
-}
-
 .p-2{
   padding: 0.5rem;
-}
-
-.p-9{
-  padding: 2.25rem;
-}
-
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-2{
@@ -759,6 +699,11 @@ body {
 .py-2\.5{
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pl-5{
