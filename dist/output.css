@@ -668,6 +668,31 @@ body {
   border-color: rgb(229 229 229 / var(--tw-border-opacity));
 }
 
+.border-\[\#D5D4D8\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(213 212 216 / var(--tw-border-opacity));
+}
+
+.border-\[rgb\(229\2c 229\2c 229\)\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity));
+}
+
+.border-\[hsl\(0\2c 0\%\2c 90\%\)\]{
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 90% / var(--tw-border-opacity));
+}
+
+.bg-\[\#E5E5E5\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
