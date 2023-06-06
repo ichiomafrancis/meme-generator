@@ -16,7 +16,7 @@ function App() {
         </div>
 
         <div className='section m-9'>
-          <div className='input-fields flex justify-between'>
+          <form className='input-fields flex justify-between'>
             <input
               type='text'
               placeholder='top text'
@@ -27,7 +27,7 @@ function App() {
               placeholder='bottom text'
               className='w-56 px-2 border border-[#D5D4D8] outline-0 rounded-md'
             />
-          </div>
+          </form>
 
           <button className='new-meme w-full mt-4 bg-gradient-to-r from-dark-purple to-light-purple py-2.5 flex justify-center rounded-md'>
             <img src={meme} alt='' className='' />
